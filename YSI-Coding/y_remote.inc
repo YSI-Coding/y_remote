@@ -97,11 +97,11 @@ Natives:
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
-#include "..\YSI-Internal\y_shortfunc"
+#include "..\YSI_Internal\y_shortfunc"
 
-#include "..\YSI-Core\y_utils"
+#include "..\YSI_Core\y_utils"
 
 // This VERY LOOSELY uses the master system to figure out if it should even
 // bother with complex remote calls.  However, it isn't fully bound by the
