@@ -95,16 +95,16 @@ Optional plugins:
 	#tryinclude "y_remote\y_remote_entry"
 #endif
 #if !defined _INC_y_remote
-	#tryinclude "YSI_Coding\y_remote\y_remote_entry"
+	#tryinclude "YSI-Coding\y_remote\y_remote_entry"
 #endif
 #if !defined _INC_y_remote
-	#tryinclude "YSI\YSI_Coding\y_remote\y_remote_entry"
+	#tryinclude "YSI\YSI-Coding\y_remote\y_remote_entry"
 #endif
 #if !defined _INC_y_remote
-	#tryinclude <YSI_Coding\y_remote\y_remote_entry>
+	#tryinclude <YSI-Coding\y_remote\y_remote_entry>
 #endif
 #if !defined _INC_y_remote
-	#tryinclude <YSI\YSI_Coding\y_remote\y_remote_entry>
+	#tryinclude <YSI\YSI-Coding\y_remote\y_remote_entry>
 #endif
 #if !defined _INC_y_remote
 	#error Could not find y_remote
